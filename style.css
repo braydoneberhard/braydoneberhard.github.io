@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Muli|Rubik|Quicksand|Open+Sans|Raleway|Source+Sans+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(135deg, #e67e22, #8e44ad);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ecf0f1;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+.back {
+  background-color: #34495e;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.text-background {
+  margin-top: 500px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+.container2 {
+  margin-top: 2%;
+  overflow: hidden;
+
+}
+
+.title {
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.two-part {
+  float: left;
+  text-align: justify;
+  width: 31.3%;
+  padding: 10px;
+  background-color: #2c3e50;
+  margin-right: 1%;
+  margin-left: 1%;
+  border-radius: 5px;
+}
+
+.three-part {
+  float: left;
+  text-align: justify;
+  width: 50%;
+  padding: 10px;
+  background-color: #2c3e50;
+  margin-right: 1%;
+  margin-top: 1%;
+  margin-left: 1%;
+  border-radius: 5px;
+}
+
+.two-part img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+header {
+  background: #2c3e50;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 16;
+  transition: 0.3s linear;
+  float: right;
+}
+
+header a:hover {
+  color: #e67e22;
+}
+
+.current {
+  color: #e67e22;
+  text-decoration: none;
+  font-size: 16;
+  transition: 0.1s linear;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 10px 0 20px;
+}
+
+header nav {
+  float: right;
+}
