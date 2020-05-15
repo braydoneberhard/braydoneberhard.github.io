@@ -26,6 +26,38 @@ body {
   overflow: hidden;
 }
 
+.top {
+  margin-top: 10%;
+}
+
+.imageside {
+  padding-top: 2.5%;
+  padding-right: 5%;
+}
+
+.dumbcolour {}
+
+.bottombar {
+
+  padding: 5px;
+
+}
+
+.bottombarbuttons {}
+
+.bottombarbuttons a {
+
+  padding: 1% 0 1% 31%;
+  color: #fff;
+  font-size: 15pt;
+  text-decoration: none;
+  float: left;
+}
+
+.bottombarbuttons a:active {
+  color: #fff;
+}
+
 .text-background {
   margin-top: 500px;
   background-color: #2c3e50;
