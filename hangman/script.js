@@ -8,7 +8,7 @@ const finalWord = document.getElementById('final-word')
 
 const figureParts = document.querySelectorAll('.figure-part');
 
-const words = ['fridge', 'microwave', 'campers', 'patriot', 'paper', 'bee', 'over', 'land', 'television', 'computer', 'code', 'javascript', 'python', 'website', 'whiteboard', 'lightbulb', 'stickers', 'paint', 'window', 'lockers', 'board', 'word', 'rocks', 'big', 'jumper', 'hit', 'engine', 'remind', 'mistake', 'cj', 'tyler', 'tadpole'];
+const words = ['fridge', 'microwave', 'campers', 'paper', 'bee', 'over', 'land', 'television', 'computer', 'code', 'javascript', 'python', 'website', 'whiteboard', 'lightbulb', 'stickers', 'paint', 'window', 'lockers', 'board', 'word', 'rocks', 'big', 'jumper', 'hit', 'engine', 'remind', 'mistake', 'cj', 'tyler', 'tadpole'];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
